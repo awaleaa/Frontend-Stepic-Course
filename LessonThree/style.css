@@ -1,0 +1,43 @@
+body {
+  max-width: 70%;
+  margin: 0 auto;
+  margin-left: 25%;
+  margin-right: 25%;
+  
+}
+ol {
+  font-size: 18px;
+}
+pre {
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+}
+h1 {
+  font-size: 32px;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+}
+figcaption {
+  font-style: italic;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+figure {
+  float: right; /* Выравнивание по правому краю */
+}
+h2,
+h3,
+h4,
+h5,
+h5 {
+  margin-top: 1.5em;
+}

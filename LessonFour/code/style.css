@@ -1,0 +1,243 @@
+body {
+  width: 1219px;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+#beginning {
+  width: 1219px;
+  background: #007765;
+  height: 84px;
+  position: fixed;
+  z-index: 1000px;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 24px;
+}
+.beginning-style {
+  padding-left: 55px;
+  padding-top: 20px;
+  padding-bottom: 19px;
+  display: flex;
+}
+.border {
+  border-right: 2px solid #ffffff;
+  margin-left: 8px;
+  margin-top: 11px;
+  margin-bottom: 16px;
+}
+.first-link {
+  font-size: 35px;
+  color: #ffffff;
+  padding-left: 10px;
+}
+.second-link {
+  padding-left: 490px;
+  padding-top: 8px;
+}
+.third-link {
+  padding-left: 10px;
+  padding-top: 8px;
+}
+.last-link {
+  padding-left: 10px;
+  padding-top: 8px;
+  padding-right: 55px;
+}
+.pipernet {
+  height: 487px;
+  background: url("https://s3-alpha-sig.figma.com/img/9e49/7f3d/f0c0c5a5f4c8e134a751795ba5497b38?Expires=1661126400&Signature=BMkxfh1qq1RdE0cClldSgiN1hbHaovqAi1ittjF-UZ3tQwYt4LSAxK3H5jFnEZsl58q1dEmXXU7kE5vLV2ungN-OE7AhRwc3x5hUce4ji1-wdW1VJQgfPgMuoGEFyO6xyfDnPDOqZum8dGYvN2PS2Iai~t3K2D9Rp0pcT4w5xfwjFCN01HFWOrrcOFibwr8cHsEormT~p2kI5Nogf2Nngoyi3bqNNvMJYIwslZPMk~tmXrps34KIJG5h3NekLpSsSL-E11rJ~~ND2RhC-lAuD3p1Z89GOyzsddfNjJg9aDm7FsqSB0WD02k-DucO9-UOnwxCFBtlaQz83XvFZKB4Ww__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+}
+.pipernet-sign {
+  margin-top: 240px;
+  color: #ffffff;
+  font-size: 72px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#problem {
+  background: #eeeeee;
+  height: 669px;
+  display: block;
+  padding-left: 55px;
+  padding-right: 55px;
+  padding-top: 60px;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 37.5px;
+}
+.problem-style {
+  color: #007765;
+  font-size: 64px;
+  margin-left: 383px;
+  font-weight: 500;
+}
+.hero-block {
+  height: 403px;
+  background-image: url("https://i.ibb.co/PM6cMBn/image.png");
+  background-size: cover;
+  background-position: center center;
+  padding-top: 228px;
+  padding-bottom: 128px;
+}
+.container {
+  box-sizing: border-box;
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+.hero__message {
+  font-family: Roboto, sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #fff;
+}
+#pied {
+  height: 604px;
+  background: #ffffff;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+.first-title {
+  font-size: 64px;
+  color: #007765;
+  font-weight: 500;
+  line-height: 75px;
+  text-align: center;
+  margin-top: 48px;
+}
+.second-part-in-pied {
+  font-size: 32px;
+  line-height: 37.5px;
+  font-weight: 400;
+  color: #000000;
+}
+.photo {
+  float: left;
+  padding-right: 45px;
+}
+#team {
+  height: 845px;
+  background: #eeeeee;
+}
+.first-title-in-team {
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+  padding-top: 48px;
+}
+.first-string-in-team {
+  padding-top: 56px;
+  display: flex;
+}
+.second-string-in-team {
+  padding-top: 82px;
+  display: flex;
+}
+.first-photo-in-team {
+  display: grid;
+  padding-left: 146px;
+}
+.other-photo-in-team {
+  display: grid;
+  padding-left: 165px;
+}
+.round-first {
+  width: 168px;
+  height: 168px;
+  border-radius: 50%; /* Превращаем в круг */
+  background: url(assets/team/image1.jpg);
+  background-size: auto 168px; /* Высота фотографии равна высоте элемента */
+  margin-left: 8px;
+}
+.first-sign-in-grid {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #007765;
+  padding-top: 12px;
+}
+.last-sign-in-grid {
+  font-weight: 400;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 21px;
+  color: #000000;
+  padding-left: 20px;
+}
+.round-second {
+  width: 168px;
+  height: 168px;
+  border-radius: 50%; /* Превращаем в круг */
+  background: url(assets/team/image2.jpg);
+  background-size: auto 168px; /* Высота фотографии равна высоте элемента */
+  margin-left: 8px;
+}
+.round-third {
+  width: 168px;
+  height: 168px;
+  border-radius: 50%; /* Превращаем в круг */
+  background: url(assets/team/image3.jpg);
+  background-size: auto 168px; /* Высота фотографии равна высоте элемента */
+  margin-left: 8px;
+}
+.round-four {
+  width: 168px;
+  height: 168px;
+  border-radius: 50%; /* Превращаем в круг */
+  background: url(assets/team/image4.jpg);
+  background-size: auto 168px; /* Высота фотографии равна высоте элемента */
+  margin-left: 8px;
+}
+.round-five {
+  width: 168px;
+  height: 168px;
+  border-radius: 50%; /* Превращаем в круг */
+  background: url(assets/team/image5.jpg);
+  background-size: auto 168px; /* Высота фотографии равна высоте элемента */
+  margin-left: 8px;
+}
+.round-six {
+  width: 168px;
+  height: 168px;
+  border-radius: 50%; /* Превращаем в круг */
+  background: url(assets/team/image6.jpg);
+  background-size: auto 168px; /* Высота фотографии равна высоте элемента */
+  margin-left: 8px;
+}
+.footer {
+  height: 176px;
+  background: #333333;
+}
+.container-2 {
+  box-sizing: border-box;
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+  padding-right: 55px;
+  padding-top: 48px;
+}
+.hero__message-2 {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #fff;
+}

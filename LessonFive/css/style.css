@@ -1,0 +1,25 @@
+body {
+    min-width: 320px;
+    font-family: 'Roboto', sans-serif;
+}
+header .bg-dark{
+    background-color: #343A40 !important;
+}
+header .navbar-brand{
+    font-size: 23px;
+    color: #FFFFFF;
+    margin-left: 16px;
+    margin-right: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+header .nav-item{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.75px;
+    color: #FFFFFF;
+}
+header .navbar-dark .nav-item .nav-link{
+    color: #FFFFFF;
+}
+
